@@ -1,5 +1,6 @@
 {
   "name": "ReaverVPN",
+  "type": "website",
   "description": "Безопасный и быстрый VPN-клиент от Reaver. Защити свой трафик и получи доступ к любимым сайтам.",
   "version": "1.2.0",
   "author": {
@@ -10,7 +11,7 @@
   "tags": ["VPN", "Security", "Privacy"],
   "platforms": ["Windows", "Linux", "MacOS"],
   "screenshots": [
-    "https://example.com/screenshots/reaver1.png",
+    "https://i.postimg.cc/0yvYVXy5/20250704-150641.jpg",
     "https://example.com/screenshots/reaver2.png"
   ],
   "download": {

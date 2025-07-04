@@ -1,0 +1,24 @@
+{
+  "name": "RE | Studio Website",
+  "type": "website",
+  "description": "Официальный сайт студии River Entertainment. Здесь вы найдете информацию о наших проектах, команде и будущих релизах.",
+  "version": "1.0.0",
+  "author": {
+    "name": "WWS",
+    "link": "https://github.com/playreaver"
+  },
+  "icon": "https://example.com/icons/reavervpn.png",
+  "tags": ["Reaver", "Site", "Games"],
+  "platforms": ["Windows", "Linux", "MacOS"],
+  "screenshots": [
+    "https://i.postimg.cc/sfHcdQyw/photo-2025-06-12-20-05-45.jpg",
+    "https://example.com/screenshots/reaver2.png"
+  ],
+  "download": {
+    "url": "https://playreaver.is-a.dev/",
+    "label": "Перейти на сайт"
+  },
+  "repo": "https://github.com/playreaver/reavervpn",
+  "license": "MIT",
+  "lastUpdate": "2025-07-04"
+}

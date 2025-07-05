@@ -9,7 +9,7 @@
   },
   "icon": "https://example.com/icons/reavervpn.png",
   "tags": ["Reaver", "Site", "Games"],
-  "platforms": ["Windows", "Linux", "MacOS"],
+  "platforms": ["Yandex Browser", "Microsoft Edge", "Google Chrome"],
   "screenshots": [
     "https://i.postimg.cc/sfHcdQyw/photo-2025-06-12-20-05-45.jpg",
     "https://example.com/screenshots/reaver2.png"
@@ -20,5 +20,6 @@
   },
   "repo": "https://github.com/playreaver/reavervpn",
   "license": "MIT",
-  "lastUpdate": "2025-07-04"
+  "lastUpdate": "2025-07-04",
+  "docs": "https://ссылка.на/документацию"
 }

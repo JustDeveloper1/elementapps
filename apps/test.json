@@ -1,0 +1,32 @@
+{
+  "name": "Reaver UI Kit",
+  "description": "Библиотека компонентов для React",
+  "author": {
+    "name": "Reaver Team",
+    "link": "https://github.com/reaver"
+  },
+  "version": "2.1.0",
+  "tags": {
+    "type": ["Library", "NPM Package"],
+    "purpose": ["UI Development"],
+    "technology": ["JavaScript", "React"],
+    "functionality": ["UI Component"],
+    "maturity": ["Stable"],
+    "other": ["JS/ES6 Module"]
+  },
+  "platforms": ["Web"],
+  "download": {
+    "url": "https://www.npmjs.com/package/reaver-ui",
+    "type": "npm"
+  },
+  "repo": "https://github.com/reaver/ui-kit",
+  "license": "Apache-2.0",
+  "lastUpdate": "2023-11-10",
+  "docs": "https://reaver.dev/docs/ui-kit",
+  "icon": "https://reaver.dev/icon.png",
+  "screenshots": [
+    "https://reaver.dev/screenshots/ui1.jpg",
+    "https://reaver.dev/screenshots/ui2.jpg"
+  ],
+  "type": "app"
+}

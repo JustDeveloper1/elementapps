@@ -3,7 +3,7 @@
   "type": "website",
   "description": "Официальный сайт студии River Entertainment. Здесь вы найдете информацию о наших проектах, команде и будущих релизах.",
   "version": "1.0.0",
-  "languages": ["RU"]
+  "languages": ["RU"],
   "author": {
     "name": "WWS",
     "link": "https://github.com/playreaver"

@@ -8,6 +8,14 @@
     "name": "WWS",
     "link": "https://github.com/playreaver"
   },
+  "tags": {
+    "type": ["Library", "NPM Package"],
+    "purpose": ["UI Development"],
+    "technology": ["JavaScript", "React"],
+    "functionality": ["UI Component"],
+    "maturity": ["Stable"],
+    "other": ["JS/ES6 Module"]
+  },
   "icon": "https://raw.githubusercontent.com/playreaver/elementapps/main/images/reaversite_logo.png",
   "tags": ["Reaver", "Site", "Games"],
   "platforms": ["Yandex Browser", "Microsoft Edge", "Google Chrome"],

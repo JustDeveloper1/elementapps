@@ -8,7 +8,7 @@
     "name": "WWS",
     "link": "https://github.com/playreaver"
   },
-  "icon": "https://example.com/icons/reavervpn.png",
+  "icon": "https://raw.githubusercontent.com/playreaver/elementapps/main/images/reaversite_logo.png",
   "tags": ["Reaver", "Site", "Games"],
   "platforms": ["Yandex Browser", "Microsoft Edge", "Google Chrome"],
   "screenshots": [

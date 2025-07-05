@@ -72,11 +72,11 @@
     "label": "Скачать приложение" 
   },
 
-  "repo": "https://github.com/проект", // Ссылка на исходный код (если есть)
+  "repo": "https://github.com/проект", 
 
-  "license": "MIT", // Тип лицензии: MIT, GPL, Apache, Proprietary и т.д.
+  "license": "MIT", 
 
-  "lastUpdate": "2025-07-05", // Дата обновления (в формате YYYY-MM-DD)
+  "lastUpdate": "2025-07-05", 
 
-  "docs": "https://ссылка.на/документацию" // Ссылка на документацию или "none"
+  "docs": "https://ссылка.на/документацию" 
 }

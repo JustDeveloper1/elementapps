@@ -1,0 +1,85 @@
+{
+  "name": "Название приложения", // Обязательное: Отображаемое имя
+  "type": "app", // 'app' или 'website' — влияет на значок и кнопку ("Скачать" или "Перейти")
+
+  "description": "Краткое описание приложения", // Обязательное: до 2-3 строк, можно с HTML-тегами
+
+  "version": "1.0.0", // Версия приложения, любая строка
+
+  "languages": ["RU", "EN"], // Поддерживаемые языки (ISO-коды или свои, необязательно)
+
+  "author": {
+    "name": "Имя или никнейм", // Имя разработчика
+    "link": "https://github.com/..." // Ссылка на автора (GitHub, сайт, соцсеть и т.д.)
+  },
+
+  // Теги: новая структура — ОБЯЗАТЕЛЬНО использовать один формат
+  "tags": {
+    "type": [
+      "Library", // Библиотека
+      "App",     // Приложение
+      "NPM Package", // Пакет для npm
+      "Website"  // Веб-сайт
+    ],
+    "purpose": [
+      "UI Development", // Интерфейс
+      "Backend",        // Серверная логика
+      "Education",      // Обучение
+      "Tooling",        // Инструментарий
+      "Productivity"    // Повышение продуктивности
+    ],
+    "technology": [
+      "JavaScript",     // Любой язык
+      "Python",
+      "React",
+      "Vue",
+      "Node.js"
+    ],
+    "functionality": [
+      "Authentication",
+      "UI Component",
+      "Analytics",
+      "Database"
+    ],
+    "maturity": [
+      "Alpha",     // Ранняя стадия
+      "Beta",      // Тестирование
+      "Stable",    // Стабильно
+      "Deprecated" // Устарело
+    ],
+    "other": [
+      "Open Source",
+      "JS/ES6 Module",
+      "Offline",
+      "Mobile Ready",
+      "Experimental"
+    ]
+  },
+
+  "icon": "https://ссылка/на/иконку.png", // Квадратное изображение 128x128+ (можно SVG, PNG, JPEG)
+
+  "platforms": [
+    // Для приложений
+    "Windows", "macOS", "Linux", "Android", "iOS", "Web",
+    // Для веб-сайтов
+    "Google Chrome", "Firefox", "Safari", "Yandex Browser", "Microsoft Edge", "Opera"
+  ],
+
+  "screenshots": [
+    "https://ссылка/на/скрин1.jpg",
+    "https://ссылка/на/скрин2.jpg"
+  ], // Необязательное поле
+
+  "download": {
+    "url": "https://example.com/download", // Кнопка перехода или загрузки
+    "label": "Скачать приложение" // Текст кнопки
+  },
+
+  "repo": "https://github.com/проект", // Ссылка на исходный код (если есть)
+
+  "license": "MIT", // Тип лицензии: MIT, GPL, Apache, Proprietary и т.д.
+
+  "lastUpdate": "2025-07-05", // Дата обновления (в формате YYYY-MM-DD)
+
+  "docs": "https://ссылка.на/документацию" // Ссылка на документацию или "none"
+}

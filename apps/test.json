@@ -14,7 +14,7 @@
     "maturity": ["Stable"],
     "other": ["JS/ES6 Module"]
   },
-  "platforms": ["Web"],
+  "platforms": ["Yandex Browser"],
   "download": {
     "url": "https://www.npmjs.com/package/reaver-ui",
     "type": "npm"

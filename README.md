@@ -1,4 +1,4 @@
-# DevSpace App Directory
+# DevSpace App Directory | https://element.is-a.dev/apps
 
 # English (Русский язык см. ниже)
 

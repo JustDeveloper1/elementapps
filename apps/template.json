@@ -8,6 +8,8 @@
 
   "languages": ["RU", "EN"],
 
+  "video": "https://youtu.be/t9jxJ4HzFj8?si=Sv0Yk2t57OLaaPVI",
+  
   "author": {
     "name": "Имя или никнейм",
     "link": "https://github.com/..."
@@ -72,7 +74,7 @@
     "label": "Скачать приложение" 
   },
 
-  "repo": "https://github.com/проект", 
+  "repo": "https://github.com/playreaver/website/tree/main", 
 
   "license": "MIT", 
 

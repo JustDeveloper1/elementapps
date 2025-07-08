@@ -5,23 +5,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "lastUpdate": "06/07/2025",
-  "icon": "",
+  "icon": "link",
   "repo": "https://github.com/your-username/repo",
   "docs": "https://docs.example.com",
   "video": "",
   "author": {
     "name": "Your Name",
     "link": "https://example.com"
-  },
-  "languages": [],
-  "platforms": [],
-  "tags": {
-    "type": [],
-    "purpose": [],
-    "technology": [],
-    "functionality": [],
-    "maturity": [],
-    "other": []
   },
   "download": {
     "url": "#",

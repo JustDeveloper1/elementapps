@@ -13,6 +13,9 @@
     "name": "Your Name",
     "link": "https://example.com"
   },
+  "platforms": [
+    "Windows"
+  ],
   "download": {
     "url": "#",
     "label": "Download"

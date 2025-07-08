@@ -16,7 +16,10 @@
   "tags": {
     "type": ["Website"],
     "purpose": ["Productivity"]
-  }
+  },
+  "languages": [
+    "RU"
+  ],
   "platforms": [
     "Windows"
   ],

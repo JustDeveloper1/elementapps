@@ -1,1 +1,47 @@
-
+{
+  "name": "My Awesome App",
+  "description": "App description1111",
+  "type": "website",
+  "version": "1.0.0",
+  "license": "MIT",
+  "lastUpdate": "06/07/2025",
+  "icon": "",
+  "repo": "https://github.com/your-username/repo",
+  "docs": "https://docs.example.com",
+  "video": "",
+  "author": {
+    "name": "Your Name",
+    "link": "https://example.com"
+  },
+  "languages": [],
+  "platforms": [],
+  "tags": {
+    "type": [],
+    "purpose": [],
+    "technology": [],
+    "functionality": [],
+    "maturity": [],
+    "other": []
+  },
+  "download": {
+    "url": "#",
+    "label": "Download"
+  },
+  "contributors": [
+    {
+      "name": "Имя со-автора",
+      "role": "его роль",
+      "avatar": "ссылка/на/автора",
+      "link": "ссылка/на/гитзаб"
+    }
+  ],
+  "roadmap": [
+    {
+      "title": "Тест",
+      "description": "Роуд мап"
+    }
+  ],
+  "changelog": {
+    "1.1": "Тестирование новых функций"
+  }
+}

@@ -13,6 +13,10 @@
     "name": "Your Name",
     "link": "https://example.com"
   },
+  "tags": {
+    "type": ["Website"],
+    "purpose": ["Productivity"]
+  }
   "platforms": [
     "Windows"
   ],

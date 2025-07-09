@@ -1,6 +1,6 @@
 {
   "name": "My Awesome App",
-  "description": "App description1111",
+  "description": "# Тест маркадун описания\n**Ещё тест**\n```\nеще тест\n```\n",
   "type": "website",
   "version": "1.0.0",
   "license": "MIT",

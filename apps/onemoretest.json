@@ -1,9 +1,6 @@
 {
   "name": "My Awesome App",
-  "description": "# Тест Markdown H1\n## Тест Markdown H2\n### Тест Markdown H3\n#### Тест Markdown H4\n##### Тест Markdown H5\n###### Тест Markdown H6\n\nТест Markdown абзац.\n\nНовая строка после пустой.\n\n**Тест Markdown жирный**\n*Тест Markdown курсив*\n***Тест Markdown жирный курсив***\n~~Тест Markdown зачёркнутый~~\n`Тест Markdown inline code`\n\n
-  Markdown
-  \n\n- Тест Markdown элемент 1\n- Тест Markdown элемент 2\n  - Вложенный Тест Markdown\n\n1. Тест Markdown первый\n2. Тест Markdown второй\n   1. Вложенный Тест Markdown\n\n[Тест Markdown ссылка](https://example.com)\n\n![Тест Markdown изображение](https://via.placeholder.com/150)\n\n\n> Тест Markdown цитата\n\n---\n\nТест Markdown жирный (HTML)
-  \nТест Markdown курсив (HTML)\n\n- [x] Тест Markdown выполнено\n- [ ] Тест Markdown не выполнено\n\n",
+  "description": "# Тест Markdown H1\\n## Тест Markdown H2\\n### Тест Markdown H3\\n#### Тест Markdown H4\\n##### Тест Markdown H5\\n###### Тест Markdown H6\\n\\nТест Markdown абзац.\\n\\nНовая строка после пустой.\\n\\n**Тест Markdown жирный**\\n*Тест Markdown курсив*\\n***Тест Markdown жирный курсив***\\n~~Тест Markdown зачёркнутый~~\\n`Тест Markdown inline code`\\n\\n- Тест Markdown элемент 1\\n- Тест Markdown элемент 2\\n  - Вложенный Тест Markdown\\n\\n1. Тест Markdown первый\\n2. Тест Markdown второй\\n   1. Вложенный Тест Markdown\\n\\n[Тест Markdown ссылка](https://example.com)\\n\\n![Тест Markdown изображение](https://via.placeholder.com/150)\\n\\n> Тест Markdown цитата\\n\\n---\\n\\n<b>Тест Markdown жирный (HTML)</b><br>\\n<i>Тест Markdown курсив (HTML)</i>\\n\\n- [x] Тест Markdown выполнено\\n- [ ] Тест Markdown не выполнено"
   "type": "website",
   "version": "1.0.0",
   "license": "MIT",

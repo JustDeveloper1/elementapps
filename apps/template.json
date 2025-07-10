@@ -2,7 +2,7 @@
   "name": "Reaver.Shortlink", 
   "type": "website",
 
-  "description": "### 🔗 Shorten links — share with ease  \nTurn long URLs into short ones for convenient sharing and publishing.\n",", 
+  "description": "### 🔗 Shorten links — share with ease  \nTurn long URLs into short ones for convenient sharing and publishing.\n", 
 
   "version": "1.2.0",
 
@@ -39,7 +39,7 @@
     ]
   },
 
-  "icon": "https://ссылка/на/иконку.png",
+  "icon": "https://i.postimg.cc/XYwyKnYL/photo-2025-07-10-20-59-59.jpg",
 
   "platforms": [
     "Windows", "macOS", "Linux", "Android", "iOS", "Web",
@@ -47,8 +47,8 @@
   ],
 
   "screenshots": [
-    "https://ссылка/на/скрин1.jpg",
-    "https://ссылка/на/скрин2.jpg"
+    "https://i.postimg.cc/7LwJmjCk/photo-2025-07-10-20-59-31.jpg",
+    "https://i.postimg.cc/7LwJmjCk/photo-2025-07-10-20-59-31.jpg"
   ], 
 
   "download": {

@@ -122,7 +122,7 @@ This guide provides a detailed explanation of how to format the JSON file requir
 3. **Submit a Pull Request** with a description like:  
    _"Added application: MyCoolApp"_
 
-4. We will review and publish your project on [**reaver.is-a.dev**](https://reaver.is-a.dev) under the **DevSpace** section.
+4. We will review and publish your project on [DevSpace](https://devspace.reaver.is-a.dev/)
 
 ---
 
@@ -257,7 +257,7 @@ Welcome to **DevSpace** by [Reaver.Entertainment](https://reaver.is-a.dev)!
 3. **Сделайте Pull Request** с описанием:  
    _"Добавлено приложение: MyCoolApp"_
 
-4. Мы проверим и опубликуем ваш проект на [**reaver.is-a.dev**](https://reaver.is-a.dev) в разделе **DevSpace**.
+4. Мы проверим и опубликуем ваш проект на [DevSpace](https://devspace.reaver.is-a.dev/)
 
 ---
 

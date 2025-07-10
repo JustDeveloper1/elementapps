@@ -1,233 +1,249 @@
 # DevSpace App Directory | https://element.is-a.dev/apps
 
-# English (Русский язык см. ниже)
+# DevSpace JSON File Schema Documentation
 
-This repository contains JSON files describing applications and websites displayed on the [DevSpace](https://reaver.is-a.dev/devspace) platform by Reaver Entertainment.
-
-## 📦 How to Add Your App or Website
-
-Anyone can contribute by creating a JSON file with information about their app or website and submitting a **pull request**. Your application will be visible on the DevSpace page after approval.
-
-### ✅ Requirements
-
-- Each file must contain **one app or website** only.
-- All fields are **required**.
-- JSON must be valid and well-formatted.
-- File must be added to the `/apps` folder.
-- Add your JSON filename to the `index.json` list (also in `/apps`).
+This guide provides a detailed explanation of how to format the JSON file required for submitting a project to DevSpace.
 
 ---
 
-## 📁 JSON Templates
+## English
 
-### Template for Apps (`"type": "app"`)
+### Basic Information
 
-```json
-{
-  "name": "Your App Name",
-  "type": "app",
-  "description": "Short description of the app",
-  "author": {
-    "name": "Your name or team",
-    "link": "https://github.com/your-profile"
-  },
-  "version": "1.0.0",
-  "tags": ["tag1", "tag2", "another"],
-  "platforms": ["Windows", "Linux", "Mac"],
-  "screenshots": [
-    "https://example.com/screenshot1.png",
-    "https://example.com/screenshot2.png"
-  ],
-  "icon": "https://example.com/icon.png",
-  "download": {
-    "label": "Download .exe",
-    "url": "https://example.com/app.exe"
-  },
-  "repo": "https://github.com/your-profile/your-repo",
-  "license": "MIT",
-  "lastUpdate": "2025-07-04"
-}
-```
+- `"name"`: Name of your application.
+  - Type: `string`
+  - Example: `"My Awesome App"`
 
----
+- `"description"`: Short summary of the project (supports Markdown).
+  - Type: `string`
+  - Example: `"Description (Markdown supported)"`
 
-### Template for Websites (`"type": "website"`)
+- `"type"`: Category of the project. 
+  - Example: `"app"`, `"library"`, `"tool"`
 
-```json
-{
-  "name": "Your Website Name",
-  "type": "website",
-  "description": "Site description or slogan",
-  "author": {
-    "name": "Your name or team",
-    "link": "https://github.com/your-profile"
-  },
-  "version": "1.0.0",
-  "tags": ["web", "chat", "pwa"],
-  "platforms": ["Web", "PWA"],
-  "screenshots": [
-    "https://example.com/screenshot1.png"
-  ],
-  "icon": "https://example.com/icon.png",
-  "download": {
-    "label": "Open Website",
-    "url": "https://example.com"
-  },
-  "repo": "https://github.com/your-profile/your-repo",
-  "license": "GPL-3.0",
-  "lastUpdate": "2025-07-04"
-}
-```
+- `"version"`: App version, preferably in Semantic Versioning.
+  - Example: `"1.0.0"`
 
----
+- `"license"`: The license under which the project is released.
+  - Example: `"MIT"`
 
-## 📄 Example of `index.json`
+- `"lastUpdate"`: Last update date in format `DD/MM/YYYY`.
+  - Example: `"09/07/2025"`
 
-```json
-[
-  "reavervpn.json",
-  "element-messenger.json"
-]
-```
+- `"icon"`: URL to an icon representing the app.
+  - Example: `"https://example.com/icon.png"`
 
-> `index.json` must be in the same folder as your app files (`/apps/`), and it should include the filename of every JSON app you want listed on the site.
+- `"repo"`: Link to the source code repository.
+  - Example: `"https://github.com/user/repo"`
 
----
+- `"docs"`: Documentation URL or `"none"` if unavailable.
+  - Example: `"https://example.com/docs"`
 
-## 📘 Field Reference
+- `"video"`: YouTube or similar demo video URL.
+  - Example: `"https://youtube.com/demo"`
 
-| Field             | Type     | Description                                |
-|------------------|----------|--------------------------------------------|
-| `name`           | string   | App or website name                        |
-| `type`           | string   | `"app"` or `"website"`                     |
-| `description`    | string   | Short summary                              |
-| `author.name`    | string   | Author or team name                        |
-| `author.link`    | string   | Link to GitHub or personal site            |
-| `version`        | string   | Current version                            |
-| `tags`           | array    | Keywords and topics                        |
-| `platforms`      | array    | Supported platforms (e.g. Windows, Web)    |
-| `screenshots`    | array    | Direct links to screenshots                |
-| `icon`           | string   | Link to icon image                         |
-| `download.label` | string   | Text for the download button               |
-| `download.url`   | string   | URL for download or site visit             |
-| `repo`           | string   | GitHub repository link                     |
-| `license`        | string   | License type (MIT, GPL, etc.)              |
-| `lastUpdate`     | string   | Last update date in format YYYY-MM-DD      |
+### Author
 
----
+- `"author"`:
+  - `"name"`: Author's name.
+  - `"link"`: Author's website or profile URL.
 
-## 🙋 Need Help?
+### Languages
 
-If you're unsure how to create or submit your app JSON file, feel free to open an [issue](https://github.com/playreaver/elementapps/issues) or contact us on [Reaver.is-a.dev](https://reaver.is-a.dev/).
+- `"languages"`: Array of supported languages (programming or spoken).
+  - Example: `["JavaScript", "English"]`
 
-# Русский
+### Platforms
 
-# 📦 DevSpace — Платформа приложений от Reaver.Entertainment
+- `"platforms"`: Supported operating systems or browsers.
+  - Example: `["Windows", "Linux", "Web", "Google Chrome"]`
 
-**DevSpace** — это открытая площадка для размещения приложений, сайтов и утилит. Любой разработчик может опубликовать свой проект, добавив `.json`-файл по шаблону.
+### Tags
+
+- `"tags"`: Tag categories:
+
+  - `"type"`: 
+    - Values like `"Library"`, `"App"`, `"Package"`, etc.
+
+  - `"purpose"`: 
+    - For example: `"Frontend"`, `"Backend"`, `"Education"`
+
+  - `"technology"`: 
+    - Technologies used: `"JavaScript"`, `"React"`, `"Python"`
+
+  - `"functionality"`: 
+    - Features like `"Authentication"`, `"Analytics"`
+
+  - `"maturity"`: 
+    - Development stage: `"Alpha"`, `"Stable"`
+
+  - `"other"`: 
+    - Extra tags like `"Offline"`, `"Mobile Ready"`
+
+### Download
+
+- `"download"`:
+  - `"url"`: Link to download or open the app.
+  - `"label"`: Label shown on the download button.
+
+### Contributors
+
+- `"contributors"`: List of contributors.
+  - Each has:
+    - `"name"`: Contributor’s name
+    - `"role"`: Role in the project
+    - `"avatar"`: URL to their avatar
+    - `"link"`: Profile URL
+
+### Roadmap
+
+- `"roadmap"`: Planned features or goals.
+  - Each entry:
+    - `"title"`: Name of feature
+    - `"description"`: Description of the task or feature
+
+### Changelog
+
+- `"changelog"`: Key-value list of version changes.
+  - Key: version number
+  - Value: changelog description
 
 ---
 
-## 📁 Структура репозитория
+## 🚀 How to Publish Your Project
 
-Все `.json`-файлы находятся в директории [`/apps/`](./apps/).
+1. **Fork this repository**:  
+   👉 [https://github.com/playreaver/elementapps](https://github.com/playreaver/elementapps)
 
-Файл `index.json` содержит список всех подключённых JSON-файлов, которые будут отображаться на сайте:
+2. Inside the `/apps/` folder:
+   - Create your own `yourapp.json` file based on the template
+   - Add your filename to `index.json`
 
-```json
-[
-  "reavervpn.json",
-  "element-messenger.json"
-]
-```
+3. **Submit a Pull Request** with a description like:  
+   _"Added application: MyCoolApp"_
 
-> ⚠️ **Важно:** ваш файл должен быть добавлен в `index.json`.
-
----
-
-## 📄 Шаблоны JSON-файлов
-
-### 🔹 Приложение (`type: "app"`)
-
-```json
-{
-  "name": "Ваше имя приложения",
-  "type": "app",
-  "description": "Краткое описание приложения",
-  "author": {
-    "name": "Ваш ник или команда",
-    "link": "https://github.com/ваш-профиль"
-  },
-  "version": "1.0.0",
-  "tags": ["ключевое", "слово", "еще"],
-  "platforms": ["Windows", "Linux", "Mac"],
-  "screenshots": [
-    "https://example.com/screenshot1.png"
-  ],
-  "icon": "https://example.com/icon.png",
-  "download": {
-    "label": "Скачать .exe",
-    "url": "https://example.com/app.exe"
-  },
-  "repo": "https://github.com/ваш-профиль/репозиторий",
-  "license": "MIT",
-  "lastUpdate": "2025-07-04"
-}
-```
+4. We will review and publish your project on [**reaver.is-a.dev**](https://reaver.is-a.dev) under the **DevSpace** section.
 
 ---
 
-### 🔹 Веб-сайт (`type: "website"`)
+## ✅ Recommendations
 
-```json
-{
-  "name": "Имя вашего сайта",
-  "type": "website",
-  "description": "Описание или слоган",
-  "author": {
-    "name": "Имя автора/команды",
-    "link": "https://github.com/ваш-профиль"
-  },
-  "version": "1.0.0",
-  "tags": ["веб", "pwa", "мессенджер"],
-  "platforms": ["Web", "PWA"],
-  "screenshots": [
-    "https://example.com/screenshot1.png"
-  ],
-  "icon": "https://example.com/icon.png",
-  "download": {
-    "label": "Открыть сайт",
-    "url": "https://example.com"
-  },
-  "repo": "https://github.com/ваш-профиль/репозиторий",
-  "license": "GPL-3.0",
-  "lastUpdate": "2025-07-04"
-}
-```
+- Use **direct links** to images and files
+- Make sure all links are **working**
+- Validate your JSON structure using a tool like [jsonlint.com](https://jsonlint.com)
 
 ---
 
-## 🧾 Поля JSON-файлов
+## 🛠 Feedback
 
-| Поле             | Тип     | Описание                                |
-|------------------|----------|------------------------------------------|
-| `name`           | string   | Название приложения/сайта               |
-| `type`           | string   | `"app"` или `"website"`                 |
-| `description`    | string   | Краткое описание                        |
-| `author.name`    | string   | Имя автора/команды                      |
-| `author.link`    | string   | Ссылка на GitHub или сайт               |
-| `version`        | string   | Версия приложения                       |
-| `tags`           | array    | Ключевые слова                          |
-| `platforms`      | array    | Поддерживаемые платформы                |
-| `screenshots`    | array    | Ссылки на скриншоты                     |
-| `icon`           | string   | Ссылка на иконку                        |
-| `download.label` | string   | Название кнопки загрузки                |
-| `download.url`   | string   | Ссылка на установщик / сайт             |
-| `repo`           | string   | GitHub-репозиторий                      |
-| `license`        | string   | MIT, GPL и т.д.                         |
-| `lastUpdate`     | string   | Дата последнего обновления (ГГГГ-ММ-ДД) |
+If you have any questions, open an [Issue](https://github.com/playreaver/elementapps/issues) or leave a comment in your Pull Request.
+
+Welcome to **DevSpace** by [Reaver.Entertainment](https://reaver.is-a.dev)!
 
 ---
+
+## Русский
+
+### Основная информация
+
+- `"name"`: Название вашего приложения.
+  - Тип: `string`
+  - Пример: `"My Awesome App"`
+
+- `"description"`: Краткое описание проекта (поддерживается Markdown).
+  - Тип: `string`
+  - Пример: `"Description (Markdown supported)"`
+
+- `"type"`: Тип проекта.
+  - Пример: `"app"`, `"library"`, `"tool"`
+
+- `"version"`: Версия приложения (желательно в формате SemVer).
+  - Пример: `"1.0.0"`
+
+- `"license"`: Лицензия, по которой распространяется проект.
+  - Пример: `"MIT"`
+
+- `"lastUpdate"`: Дата последнего обновления в формате `ДД/ММ/ГГГГ`.
+  - Пример: `"09/07/2025"`
+
+- `"icon"`: Ссылка на иконку проекта.
+  - Пример: `"https://example.com/icon.png"`
+
+- `"repo"`: Ссылка на репозиторий исходного кода.
+  - Пример: `"https://github.com/user/repo"`
+
+- `"docs"`: Ссылка на документацию или `"none"`, если её нет.
+  - Пример: `"https://example.com/docs"`
+
+- `"video"`: Ссылка на демонстрационное видео (например, YouTube).
+  - Пример: `"https://youtube.com/demo"`
+
+### Автор
+
+- `"author"`:
+  - `"name"`: Имя автора
+  - `"link"`: Сайт или профиль автора
+
+### Языки
+
+- `"languages"`: Массив поддерживаемых языков (программирования или интерфейса).
+  - Пример: `["JavaScript", "English"]`
+
+### Платформы
+
+- `"platforms"`: Поддерживаемые ОС и браузеры.
+  - Пример: `["Windows", "Linux", "Web", "Google Chrome"]`
+
+### Теги
+
+- `"tags"`: Категории меток:
+
+  - `"type"`: 
+    - Например: `"Library"`, `"App"`, `"Package"`
+
+  - `"purpose"`: 
+    - Назначение: `"Frontend"`, `"Backend"`, `"Education"`
+
+  - `"technology"`: 
+    - Технологии: `"React"`, `"Python"`, `"Vue"`
+
+  - `"functionality"`: 
+    - Функциональность: `"Authentication"`, `"Analytics"`
+
+  - `"maturity"`: 
+    - Этап зрелости проекта: `"Alpha"`, `"Stable"`
+
+  - `"other"`: 
+    - Дополнительно: `"Offline"`, `"Experimental"`
+
+### Загрузка
+
+- `"download"`:
+  - `"url"`: Ссылка на загрузку или сайт.
+  - `"label"`: Надпись на кнопке загрузки.
+
+### Участники
+
+- `"contributors"`: Список участников проекта.
+  - Каждый содержит:
+    - `"name"`: Имя
+    - `"role"`: Роль
+    - `"avatar"`: Ссылка на аватар
+    - `"link"`: Профиль/сайт
+
+### План разработки
+
+- `"roadmap"`: Будущие функции и цели.
+  - Каждая запись:
+    - `"title"`: Название
+    - `"description"`: Описание задачи
+
+### История изменений
+
+- `"changelog"`: Список изменений по версиям.
+  - Ключ: номер версии
+  - Значение: описание изменений
+
 
 ## 🚀 Как опубликовать свой проект
 

@@ -1,7 +1,8 @@
 name: DevSpace Official
 invite: https://discord.gg/YJVetzDar3
 icon: https://example.com/icon.png
-members: 1240
+theme: space
+members: 40
 tags: development, bots, community
 description: ---
 **DevSpace** is a platform for sharing developments and tools.

@@ -19,7 +19,7 @@ This guide provides a detailed explanation of how to format the JSON file requir
   - Example: `"Description (Markdown supported)"`
 
 - `"type"`: Category of the project. 
-  - Example: `"app"`, `"library"`, `"tool"`
+  - Example: `"app"`, `"website"`
 
 - `"version"`: App version, preferably in Semantic Versioning.
   - Example: `"1.0.0"`
@@ -155,7 +155,7 @@ Welcome to **DevSpace** by [Reaver.Entertainment](https://reaver.is-a.dev)!
   - Пример: `"Description (Markdown supported)"`
 
 - `"type"`: Тип проекта.
-  - Пример: `"app"`, `"library"`, `"tool"`
+  - Пример: `"app"`, `"website"`
 
 - `"version"`: Версия приложения (желательно в формате SemVer).
   - Пример: `"1.0.0"`

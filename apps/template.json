@@ -1,59 +1,41 @@
 {
-  "name": "Название приложения", 
-  "type": "app",
+  "name": "Reaver.Shortlink", 
+  "type": "website",
 
-  "description": "Краткое описание приложения", 
+  "description": "### 🔗 Shorten links — share with ease  \nTurn long URLs into short ones for convenient sharing and publishing.\n",", 
 
-  "version": "1.0.0",
+  "version": "1.2.0",
 
-  "languages": ["RU", "EN"],
-
-  "video": "https://youtu.be/t9jxJ4HzFj8?si=Sv0Yk2t57OLaaPVI",
+  "languages": ["RU"],
   
   "author": {
-    "name": "Имя или никнейм",
-    "link": "https://github.com/..."
+    "name": "WWS",
+    "link": "https://reaver.is-a.dev/"
   },
 
   "tags": {
     "type": [
-      "Library",
-      "App",    
-      "NPM Package", 
-      "Website" 
+      "App",
+      "Website"
     ],
     "purpose": [
-      "UI Development",
-      "Backend",   
-      "Education", 
-      "Tooling",  
-      "Productivity"  
+      "Tooling",
+      "Productivity",
+      "Backend"
     ],
     "technology": [
       "JavaScript",
-      "Python",
-      "React",
-      "Vue",
       "Node.js"
     ],
     "functionality": [
-      "Authentication",
-      "UI Component",
-      "Analytics",
-      "Database"
+      "Analytics"
     ],
     "maturity": [
-      "Alpha", 
-      "Beta", 
-      "Stable", 
-      "Deprecated" 
+      "Beta"
     ],
     "other": [
       "Open Source",
-      "JS/ES6 Module",
-      "Offline",
-      "Mobile Ready",
-      "Experimental"
+      "Mobile Ready"
     ]
   },
 
@@ -70,8 +52,8 @@
   ], 
 
   "download": {
-    "url": "https://example.com/download", 
-    "label": "Скачать приложение" 
+    "url": "https://reaver.is-a.dev/shortlink", 
+    "label": "Visit site" 
   },
 
   "repo": "https://github.com/playreaver/website", 

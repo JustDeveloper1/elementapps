@@ -1,4 +1,4 @@
-# DevSpace App Directory | https://element.is-a.dev/apps
+# [DevSpace](https://devspace.reaver.is-a.dev/)
 
 # DevSpace JSON File Schema Documentation
 

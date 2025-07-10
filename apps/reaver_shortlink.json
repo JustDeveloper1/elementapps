@@ -62,5 +62,11 @@
 
   "lastUpdate": "2025-07-05", 
 
-  "docs": "none" 
+  "docs": "none",
+
+  "roadmap": [
+    {
+      "title": "English Support",
+      "description": "Coming soon"
+    }
 }

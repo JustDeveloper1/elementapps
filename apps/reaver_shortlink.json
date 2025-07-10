@@ -2,7 +2,7 @@
   "name": "Reaver.Shortlink", 
   "type": "website",
 
-  "description": "### 🔗 Shorten links — share with ease  \nTurn long URLs into short ones for convenient sharing and publishing.\n", 
+  "description": "### 🔗 Shorten links — share with ease  \nTurn long URLs into short ones for convenient sharing and publishing.\n\n\n### 🚀 Features\n\n| Feature               | Description                                                                 |\n|-----------------------|-----------------------------------------------------------------------------|\n| Instant Link Shortening | Quickly shorten long URLs with no registration or limits. Just paste and get your link. |\n| Ease of Use            | Minimal, intuitive API with support for JSON, plain text, and XML responses. |\n| Global Availability    | Shortened links work worldwide without restrictions.                       |\n",
 
   "version": "1.2.0",
 

@@ -117,7 +117,6 @@ This guide provides a detailed explanation of how to format the JSON file requir
 
 2. Inside the `/apps/` folder:
    - Create your own `yourapp.json` file based on the template
-   - Add your filename to `index.json`
 
 3. **Submit a Pull Request** with a description like:  
    _"Added application: MyCoolApp"_
@@ -252,7 +251,6 @@ Welcome to **DevSpace** by [Reaver.Entertainment](https://reaver.is-a.dev)!
 
 2. В папке `/apps/`:
    - Создайте свой файл `yourapp.json` по шаблону
-   - Добавьте имя файла в `index.json`
 
 3. **Сделайте Pull Request** с описанием:  
    _"Добавлено приложение: MyCoolApp"_

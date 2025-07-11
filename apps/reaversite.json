@@ -3,6 +3,7 @@
   "description": "Официальный сайт студии Reaver Entertainment. Здесь вы найдете информацию о наших проектах, команде и будущих релизах.",
   "version": "1.0.0",
   "languages": ["RU"],
+  "IVBDS": true,
   "author": {
     "name": "WWS",
     "link": "https://github.com/playreaver"

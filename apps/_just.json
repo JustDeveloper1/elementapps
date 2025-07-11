@@ -8,6 +8,7 @@
   "icon": "https://just.is-a.dev/img/logo.svg",
   "repo": "https://github.com/js-just/_just/",
   "docs": "https://just.is-a.dev/docs",
+  "IVBDS": true,
   "video": "",
   "author": {
     "name": "JustStudio.",

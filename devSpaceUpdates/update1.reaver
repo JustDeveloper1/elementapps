@@ -1,11 +1,24 @@
-title: "Новое обновление DevSpace"
-version: "2.0.0"
+title: 🚀Update: Discord Server Showcase
+version: "0.2.3"
 date: "2025-07-15"
 theme: "blue"
 content: |
-  ## Что нового
-  - Добавлена поддержка новых форматов
-  - Улучшена производительность
-  
+  ## We’ve just shipped a new update to DevSpace — **here’s what’s new:**
+  ---
+  📣 ### New: Discord Servers Section
+  A brand new **Discord section** has been added! You can now showcase your server with a fully customizable card.
+  Use our **built-in DSDS builder** to easily generate a .dsds file.
+  You can choose from **9 unique themes** to make your card stand out.
+  ---
+  📚 ### Documentation Section is Live
+  We’ve launched the **Documentation tab!**
+  Easily access usage instructions, format guides, and best practices for publishing content on DevSpace.
+  ---
+  👨‍💻 ### Coming Soon: Developer Section
+  A new Developers section is in the works. Stay tuned!
+  ---
+  🧭 ### Cleaner Navigation
+  We’ve re-organized the header navigation for a more clean and structured layout.
+  ---
   ```javascript
-  console.log("Пример кода");
+  console.log("created with 💖 by reaver.entertainment");

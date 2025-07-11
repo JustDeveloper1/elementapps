@@ -4,21 +4,34 @@ date: "2025-07-15"
 theme: "blue"
 content: |
   ## We’ve just shipped a new update to DevSpace — **here’s what’s new:**
-    ---
-    📣 ### New: Discord Servers Section
-    A brand new **Discord section** has been added! You can now showcase your server with a fully customizable card.
-    Use our **built-in DSDS builder** to easily generate a .dsds file.
-    You can choose from **9 unique themes** to make your card stand out.
-    ---
-    📚 ### Documentation Section is Live
-    We’ve launched the **Documentation tab!**
-    Easily access usage instructions, format guides, and best practices for publishing content on DevSpace.
-    ---
-    👨‍💻 ### Coming Soon: Developer Section
-    A new Developers section is in the works. Stay tuned!
-    ---
-    🧭 ### Cleaner Navigation
-    We’ve re-organized the header navigation for a more clean and structured layout.
-    ---
-    ```javascript
-    console.log("created with 💖 by reaver.entertainment");
+  
+  ---
+  
+  ### 📣 New: Discord Servers Section  
+  A brand new **Discord section** has been added!  
+  You can now showcase your server with a fully customizable card.  
+  Use our **built-in DSDS builder** to easily generate a `.dsds` file.  
+  You can choose from **9 unique themes** to make your card stand out.
+  
+  ---
+  
+  ### 📚 Documentation Section is Live  
+  We’ve launched the **Documentation tab!**  
+  Easily access usage instructions, format guides, and best practices for publishing content on DevSpace.
+  
+  ---
+  
+  ### 👨‍💻 Coming Soon: Developer Section  
+  A new **Developers** section is in the works. Stay tuned!
+  
+  ---
+  
+  ### 🧭 Cleaner Navigation  
+  We’ve re-organized the header navigation for a cleaner and more structured layout.
+  
+  ---
+  
+  ```javascript
+  console.log("created with 💖 by reaver.entertainment");
+  ```
+  

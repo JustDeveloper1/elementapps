@@ -1,0 +1,39 @@
+title: 🚀Update
+version: "0.2.4"
+date: "2025-07-12"
+theme: "blue"
+content: |
+  ## 🔄 Update Summary
+  
+  We’ve rolled out several improvements to make exploring and sharing apps easier and safer:
+  
+  ---
+  
+  ### 🔗 App Sharing & Embedding
+  
+  - You can now **copy a direct link** to any app and share it instantly with others.  
+  - New option to **copy the full HTML code** of an app card for embedding or custom usage.
+  
+  ---
+  
+  ### 🛡️ Verification Badges
+  
+  - Apps can now show one of two **verification badges**:
+    - ✅ **Verified by DevSpace** – trusted and reviewed apps.
+    - ⚠️ **Potentially Dangerous** – flagged for caution.
+  
+  These badges help users make more informed choices.
+  
+  ---
+  
+  ### 🔍 Improved Filtering Logic
+  
+  - App results are now **sorted by best user ratings first**.
+  - If multiple apps have the same rating, those with **more total reviews appear higher**.
+  
+  This ensures the most trusted and relevant apps are always shown first.
+
+  ```javascript
+  console.log("created with 💖 by reaver.entertainment");
+  ```
+  

@@ -2,12 +2,12 @@
   "name": "Just an Ultimate Site Tool",
   "description": "Just an Ultimate Site Tool is a GitHub Action for building static websites.\nCurrently it have 4 modes:\n- `Postprocessor`: Modify and add your own files to generated Next.js website.\n- `Redirector`: Client-side redirect using JavaScript.\n- `Compressor`: Compresses your website.\n- `Generator`: Generates documentation website using Markdown.",
   "type": "app",
-  "version": "0.0.29",
+  "version": "0.1.1",
   "license": "MIT",
-  "lastUpdate": "2025-07-11",
-  "icon": "https://just.is-a.dev/img/logo.svg",
+  "lastUpdate": "2025-09-26",
+  "icon": "https://just.js.org/img/logo.svg",
   "repo": "https://github.com/js-just/_just/",
-  "docs": "https://just.is-a.dev/docs",
+  "docs": "https://just.js.org/docs",
   "IVBDS": true,
   "video": "",
   "author": {
@@ -18,7 +18,14 @@
     "EN"
   ],
   "platforms": [
-    "Linux"
+    "Linux",
+    "Web",
+    "Google Chrome",
+    "Firefox",
+    "Safari",
+    "Yandex Browser",
+    "Microsoft Edge",
+    "Opera"
   ],
   "tags": {
     "type": [
@@ -37,15 +44,15 @@
       "Node.js",
       "HTML / CSS",
       "JSON",
-      "YAML"
+      "YAML",
+      "Shell / Bash"
     ],
     "functionality": [],
     "maturity": [
-      "Alpha"
+      "Beta", "Stable"
     ],
     "other": [
-      "Open Source",
-      "Experimental"
+      "Open Source"
     ]
   },
   "download": {
@@ -58,12 +65,6 @@
       "role": "Developer",
       "avatar": "https://api.lanyard.rest/1117482901353812088.png",
       "link": "https://justdeveloper.is-a.dev/?from=devspace"
-    }
-  ],
-  "roadmap": [
-    {
-      "title": "BETA (v0.1.0)",
-      "description": "coming soon ig..."
     }
   ]
 }
